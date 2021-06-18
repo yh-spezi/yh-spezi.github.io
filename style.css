@@ -76,7 +76,7 @@ body {
 .page-content {
     margin: auto;
     margin-top: 3em;
-    width: 85em;
+    width: 85%;
     background-color: #2B2B2B;
     padding: 1%;
     border-radius: 30px;
@@ -85,9 +85,7 @@ body {
     border-width: 0.05%;
 }
 
-.preview {
-    text-align: left;
-}
+
 
 .downloads {
     margin: auto;
