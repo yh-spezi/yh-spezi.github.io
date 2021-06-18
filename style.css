@@ -74,12 +74,21 @@ body {
     transform: translateY(-50%);
 }
 .page-content {
-    text-align: center;
-    margin: 5em 5em 5em 5em;
+    margin: auto;
+    margin-top: 3em;
+    width: 85em;
+    background-color: #2B2B2B;
+    padding: 1%;
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: #fff;
+    border-width: 0.05%;
 }
-.lorem-ipsum {
+
+.preview {
     text-align: left;
 }
+
 .downloads {
     margin: auto;
     text-align: left;
