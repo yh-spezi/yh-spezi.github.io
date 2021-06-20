@@ -16,5 +16,5 @@ fetch(url).then(function(response) {
 function done() {
     let x = $("preview");
     console.log(storedText);
-    x.innerHTML = markdown.toHTML(storedText.replaceAll("<br>","\r\n"));
+    x.innerHTML = markdown.toHTML(storedText.replace(/<br>/g,"\r\n"));
 }
