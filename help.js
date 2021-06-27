@@ -3,7 +3,7 @@
 
 const $ = id => document.getElementById(id);
 
-var url = 'https://raw.githubusercontent.com/JannisDev/Connect/main/News.md';
+var url = 'https://raw.githubusercontent.com/JannisDev/Connect/main/Hilfe.md';
 var storedText;
 
 fetch(url).then(function(response) {
