@@ -1,9 +1,9 @@
-// https://raw.githubusercontent.com/JannisDev/Connect/main/News.md
+// https://raw.githubusercontent.com/JannisDev/Connect/main/Markdowns/News.md
 // https://github.com/evilstreak/markdown-js
 
 const $ = id => document.getElementById(id);
 
-var url = 'https://raw.githubusercontent.com/JannisDev/Connect/main/Hilfe.md';
+var url = 'https://raw.githubusercontent.com/JannisDev/Connect/main/Markdowns/Hilfe.md';
 var storedText;
 
 fetch(url).then(function(response) {

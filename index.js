@@ -1,9 +1,9 @@
-// https://raw.githubusercontent.com/JannisDev/Connect/main/News.md
+// https://raw.githubusercontent.com/JannisDev/Connect/main/Markdowns/News.md
 // https://github.com/evilstreak/markdown-js
 
 const $ = id => document.getElementById(id);
 
-var urla = 'https://raw.githubusercontent.com/JannisDev/Connect/main/News.md';
+var urla = 'https://raw.githubusercontent.com/JannisDev/Connect/main/Markdowns/News.md';
 
 
 
@@ -20,5 +20,5 @@ const fillPreview = (previewId, url) => {
   });
 }
 
-fillPreview("preview", 'https://raw.githubusercontent.com/JannisDev/Connect/main/News.md');
-fillPreview("preview-features", "https://raw.githubusercontent.com/JannisDev/Connect/main/Features.md");
+fillPreview("preview", 'https://raw.githubusercontent.com/JannisDev/Connect/main/Markdowns/News.md');
+fillPreview("preview-features", "https://raw.githubusercontent.com/JannisDev/Connect/main/Markdowns/Features.md");

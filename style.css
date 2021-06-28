@@ -72,7 +72,7 @@
     }
 
     #mi5 {
-        left: 27em;
+        left: 27.5em;
     }
 
     .menu-link {
@@ -134,9 +134,9 @@
         display: flex;
     }
     #mi1 {
-        width: 80px;
-        height: 80px;
-    }
+        width: 60px;
+        height: 60px;
+    }/*
 
     #mi2 {
         left: 5.8em;
@@ -173,5 +173,5 @@
     }
     #mi4 {
         left: 15em;
-    }
+    }*/
 }
