@@ -55,24 +55,25 @@
     }
 
     #mi1 {
-        left: 3em;
+        left:2.5%;
     }
+    
 
     #mi2 {
-        left:10em;
+        left:9em;
         font-family: 'Segoe UI Black', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     #mi3 {
-        left: 17em;
+        left: 16em;
     }
 
     #mi4 {
-        left: 21em;
+        left: 20em;
     }
 
     #mi5 {
-        left: 27.5em;
+        left: 26.5em;
     }
 
     .menu-link {
@@ -112,7 +113,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-
     body {
         background-color: #1A1A1A;
         color: #fff;
@@ -120,32 +120,21 @@
         padding: 0;
     }
 
-
     .top {
-        height: 6em;
+        text-align: center;
         background-color: #383838;
-        border-color: #fff;
-        border-style: hidden;
-        border-color: #383838;
-        border-width: 1px;
-        margin-left: -8px;
-        margin-right: -8px;
-        position: relative;
-        display: flex;
+        margin: -10px;
+        height: fit-content;
+        padding-bottom: 10px;
     }
+
     #mi1 {
-        width: 60px;
-        height: 60px;
-    }/*
-
-    #mi2 {
-        left: 5.8em;
+        margin-top: 5px;
     }
 
-    .menu-item {
-        float: left;
-        margin-left: 5em;
-        margin-right: 5em;
+    .links {
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 
     .menu-link {
@@ -154,24 +143,6 @@
         color: white;
         font-style: normal;
         text-decoration: none;
+        margin: auto 8px auto 8px;
     }
-
-    .vertical-center {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-    
-    .center {
-        text-align: center;
-    }
-
-    #mi3 {
-        left: 12em;
-    }
-    #mi4 {
-        left: 15em;
-    }*/
 }
